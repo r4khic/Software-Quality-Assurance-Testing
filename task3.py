@@ -1,5 +1,7 @@
 from playwright.sync_api import sync_playwright
 
+'''Book a flight using with at least one title checkpoint in web flight reservation system '''
+
 
 def test_blazedemo_book_flight():
     with sync_playwright() as p:

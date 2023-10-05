@@ -1,6 +1,8 @@
 from playwright.sync_api import sync_playwright
 
-'''2)	Create a test case for login and logout functionality'''
+'''Create a test case for login and logout functionality'''
+
+
 def test_github_login_logout():
     with sync_playwright() as p:
         # Launch a new browser instance
